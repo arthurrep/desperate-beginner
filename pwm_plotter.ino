@@ -8,7 +8,7 @@
 void setup() {
   Serial.begin(230400);
   pinMode(3, OUTPUT);
-  analogWrite(3, 128);
+  analogWrite(3, 75);
 }
 
 void loop() {
